@@ -1,6 +1,21 @@
+
+import {Routes, Route} from "react-router-dom"
+import { Home } from './pages/Home';
+import { Result } from './pages/Result';
+import { BuyCreadit } from './pages/BuyCreadit';
+import Navbar from "./components/Navbar";
+
 const App = () => {
   return (
-    <div>App</div>
+    <div className="min-h-screen bg-slate-200">
+      <Navbar/>
+      <Routes>
+          <Route path="/" element={<Home/>}></Route>
+          <Route path="/result" element={<Result/>}></Route>
+          <Route path="/buy" element={<BuyCreadit/>}></Route>
+      </Routes>
+
+    </div>
   )
 }
 
