@@ -2,8 +2,8 @@
 import {Routes, Route} from "react-router-dom"
 import { Home } from './pages/Home';
 import { Result } from './pages/Result';
-import { BuyCreadit } from './pages/BuyCreadit';
 import Navbar from "./components/Navbar";
+import BuyCreadit from "./pages/BuyCreadit";
 
 const App = () => {
   return (
