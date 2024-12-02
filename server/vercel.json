@@ -1,12 +1,11 @@
 {
     "version": 2,
     
-    "functions" : {
-    "server/server.js" : {
-        "memory": 1024,
-        "maxDuration" : 60
-    }
-   },
+   "functions": {
+		"server.js": {
+			"maxDuration": 60
+		}
+	},
 
     "routes": [
         {
